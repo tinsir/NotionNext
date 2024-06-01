@@ -20,8 +20,9 @@ const JumpToCommentButton = () => {
     // if (commentElement) {
     // commentElement?.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' })
   }
-
-  return (<div className='flex space-x-1 items-center justify-center transform hover:scale-105 duration-200 w-7 h-7 text-center' onClick={navToComment} >
+  // 调整跳转评论区按钮 现在看不懂 ， 调整为↓箭头  原始<i className='fas fa-comment text-xs' />
+  // 彻底不要了 意义不大 增加id 一起隐藏
+  return (<div id='tin-JumpToCommentButton' className='flex space-x-1 items-center justify-center transform hover:scale-105 duration-200 w-7 h-7 text-center' onClick={navToComment} >
     <i className='fas fa-comment text-xs' />
   </div>)
 }
