@@ -22,8 +22,6 @@ const Footer = ({ title }) => {
         <i className='fas fa-users'/> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
         <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>{title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}</h1>
         <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>本网站由&nbsp;<a href='https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral'><img id="youpailogo" src='https://tinsir.com/youpai.png' alt='又拍云'/></a>&nbsp;提供CDN加速 | Powered by NotionNext.</p></span><br/>
-        
-      
     </footer>
   )
 }
