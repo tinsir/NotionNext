@@ -28,7 +28,7 @@ const Hero = props => {
 
     if (!typed && window && document.getElementById('typed')) {
       loadExternalResource(
-        'https://lib.baomitu.com/typed.js/2.0.12/typed.js@2.0.12',
+        'https://lib.baomitu.com/typed.js/2.0.12/typed.js',
         'js'
       ).then(() => {
         if (window.Typed) {
