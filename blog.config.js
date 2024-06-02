@@ -537,7 +537,7 @@ const BLOG = {
   // ANIMATE.css 动画
   ANIMATE_CSS_URL:
     process.env.NEXT_PUBLIC_ANIMATE_CSS_URL ||
-    'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css', // 动画CDN
+    'https://cdn.staticfile.net/animate.css/4.1.1/animate.min.css', // 动画CDN  https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
   // 网站图片
   IMG_LAZY_LOAD_PLACEHOLDER:
