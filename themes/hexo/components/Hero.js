@@ -12,6 +12,7 @@ let wrapperTop = 0
 /**
  * 顶部全屏大图
  * @returns
+ *'https://cdn.jsdelivr.net/npm/typed.js@2.0.12'
  */
 const Hero = props => {
   const [typed, changeType] = useState()
@@ -27,7 +28,7 @@ const Hero = props => {
 
     if (!typed && window && document.getElementById('typed')) {
       loadExternalResource(
-        'https://cdn.jsdelivr.net/npm/typed.js@2.0.12',
+        'https://lib.baomitu.com/typed.js/2.0.12/typed.js@2.0.12',
         'js'
       ).then(() => {
         if (window.Typed) {
