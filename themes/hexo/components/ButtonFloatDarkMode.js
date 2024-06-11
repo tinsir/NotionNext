@@ -1,9 +1,12 @@
+import { siteConfig } from '@/lib/config'
 import { useGlobal } from '@/lib/global'
 import { saveDarkModeToLocalStorage } from '@/themes/theme'
 import CONFIG from '../config'
-import { siteConfig } from '@/lib/config'
 
-export default function FloatDarkModeButton () {
+/**
+ * 深色模式按钮
+ */
+export default function ButtonDarkModeFloat() {
   const { isDarkMode, updateDarkMode } = useGlobal()
 
   if (!siteConfig('HEXO_WIDGET_DARK_MODE', null, CONFIG)) {
