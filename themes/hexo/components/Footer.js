@@ -36,7 +36,7 @@ const Footer = ({ title }) => {
           {title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}
         </h1>
         <span>
-            本网站由<a href='https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral'><img id="youpailogo" src='https://tinsir.com/youpai.png' alt='又拍云'/></a>&nbsp;提供CDN加速服务 | Powered by NotionNext.
+            本网站由又拍云提供CDN加速服务 | Powered by NotionNext.
         </span>
       <br />
     </footer>
