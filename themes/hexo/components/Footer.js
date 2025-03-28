@@ -35,8 +35,7 @@ const Footer = ({ title }) => {
         <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>
           {title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}
         </h1>
-        <span>
-            本网站由又拍云提供CDN加速服务 | Powered by NotionNext.
+        <span>本网站由又拍云提供CDN加速服务 | Powered by NotionNext.</span>
         </span>
       <br />
     </footer>
